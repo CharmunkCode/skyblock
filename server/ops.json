@@ -1,0 +1,32 @@
+[
+  {
+    "uuid": "349c9999-9c4a-3d11-ac49-b859d112bf9e",
+    "name": "Feathery",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "bdfd4d39-9869-3587-a60c-419be7f02cab",
+    "name": "Milk_Frog",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "ed29d03b-f01b-39dd-ab82-ac3b54f2c88b",
+    "name": "Char",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "f3d28cb0-7225-3cb1-baeb-2dadd2be89ae",
+    "name": "Tester",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "e8de36e0-d4b2-315e-8c5d-b2baec5db3bf",
+    "name": "GolemDaWanderer",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  }
+]

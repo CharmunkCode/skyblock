@@ -1,0 +1,457 @@
+[03-27 15:08:29]: [INFO] Created column 'regdate' and set the current timestamp, 1711552109684, to all 0 rows
+[03-27 15:08:29]: [INFO] SQLite Setup finished
+[03-27 15:08:29]: [INFO] No supported permissions system found! Permissions are disabled!
+[03-27 15:08:29]: [WARN] WARNING! The protectInventory feature requires ProtocolLib! Disabling it...
+[03-27 15:08:29]: [INFO] AuthMe 5.6.0-beta2 build n.2453 successfully enabled!
+[03-27 15:08:30]: [INFO] Downloading GEO IP database, because the old database is older than 30 days or doesn't exist
+[03-27 15:08:30]: [WARN] No MaxMind credentials found in the configuration file! GeoIp protections will be disabled.
+[03-27 15:08:30]: [INFO] There is no newer GEO IP database uploaded to MaxMind. Using the old one for now.
+[03-27 15:08:30]: [WARN] Could not download GeoLiteAPI database [FileNotFoundException]: plugins/AuthMe/GeoLite2-Country.mmdb (No such file or directory)
+[03-27 15:08:30]: java.io.FileNotFoundException: plugins/AuthMe/GeoLite2-Country.mmdb (No such file or directory)
+	at java.io.RandomAccessFile.open0(Native Method)
+	at java.io.RandomAccessFile.open(RandomAccessFile.java:316)
+	at java.io.RandomAccessFile.<init>(RandomAccessFile.java:243)
+	at fr.xephi.authme.libs.com.maxmind.db.BufferHolder.<init>(BufferHolder.java:20)
+	at fr.xephi.authme.libs.com.maxmind.db.Reader.<init>(Reader.java:121)
+	at fr.xephi.authme.service.GeoIpService.startReading(GeoIpService.java:173)
+	at fr.xephi.authme.service.GeoIpService.updateDatabase(GeoIpService.java:144)
+	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftTask.run(CraftTask.java:59)
+	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:53)
+	at org.github.paperspigot.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:23)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+
+[03-27 15:10:59]: [FINE] Char registered 127.0.0.1
+[03-27 15:10:59]: [FINE] Char logged in 127.0.0.1
+[03-27 15:11:30]: [INFO] AuthMe 5.6.0-beta2-b2453 disabled!
+[03-27 15:12:17]: [INFO] SQLite Setup finished
+[03-27 15:12:17]: [INFO] No supported permissions system found! Permissions are disabled!
+[03-27 15:12:17]: [WARN] WARNING! The protectInventory feature requires ProtocolLib! Disabling it...
+[03-27 15:12:18]: [INFO] AuthMe 5.6.0-beta2 build n.2453 successfully enabled!
+[03-27 15:12:18]: [INFO] Downloading GEO IP database, because the old database is older than 30 days or doesn't exist
+[03-27 15:12:18]: [WARN] No MaxMind credentials found in the configuration file! GeoIp protections will be disabled.
+[03-27 15:12:18]: [INFO] There is no newer GEO IP database uploaded to MaxMind. Using the old one for now.
+[03-27 15:12:18]: [WARN] Could not download GeoLiteAPI database [FileNotFoundException]: plugins/AuthMe/GeoLite2-Country.mmdb (No such file or directory)
+[03-27 15:12:18]: java.io.FileNotFoundException: plugins/AuthMe/GeoLite2-Country.mmdb (No such file or directory)
+	at java.io.RandomAccessFile.open0(Native Method)
+	at java.io.RandomAccessFile.open(RandomAccessFile.java:316)
+	at java.io.RandomAccessFile.<init>(RandomAccessFile.java:243)
+	at fr.xephi.authme.libs.com.maxmind.db.BufferHolder.<init>(BufferHolder.java:20)
+	at fr.xephi.authme.libs.com.maxmind.db.Reader.<init>(Reader.java:121)
+	at fr.xephi.authme.service.GeoIpService.startReading(GeoIpService.java:173)
+	at fr.xephi.authme.service.GeoIpService.updateDatabase(GeoIpService.java:144)
+	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftTask.run(CraftTask.java:59)
+	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:53)
+	at org.github.paperspigot.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:23)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+
+[03-27 15:12:34]: [FINE] Char logged in 127.0.0.1
+[03-27 15:13:16]: [FINE] Milk_Frog registered 127.0.0.1
+[03-27 15:13:16]: [FINE] The user Milk_Frog has 2 accounts:
+[03-27 15:13:16]: [FINE] §7§aChar§7, §aMilk_Frog§7.
+[03-27 15:13:16]: [FINE] Milk_Frog logged in 127.0.0.1
+[03-27 15:13:44]: [FINE] Tester registered 127.0.0.1
+[03-27 15:13:44]: [FINE] The user Tester has 3 accounts:
+[03-27 15:13:44]: [FINE] §7§aChar§7, §aMilk_Frog§7, §aTester§7.
+[03-27 15:13:44]: [FINE] Tester logged in 127.0.0.1
+[03-27 15:19:47]: [FINE] The user Tester has 3 accounts:
+[03-27 15:19:47]: [FINE] §7char, milk_frog, §aTester§7.
+[03-27 15:19:47]: [FINE] Tester logged in 127.0.0.1
+[03-27 15:20:35]: [FINE] The user Milk_Frog has 3 accounts:
+[03-27 15:20:35]: [FINE] §7char, §aMilk_Frog§7, §aTester§7.
+[03-27 15:20:35]: [FINE] Milk_Frog logged in 127.0.0.1
+[03-27 15:20:46]: [FINE] The user Char has 3 accounts:
+[03-27 15:20:46]: [FINE] §7§aChar§7, §aMilk_Frog§7, §aTester§7.
+[03-27 15:20:46]: [FINE] Char logged in 127.0.0.1
+[03-27 15:43:08]: [FINE] The user Tester has 3 accounts:
+[03-27 15:43:08]: [FINE] §7char, §aMilk_Frog§7, §aTester§7.
+[03-27 15:43:08]: [FINE] Tester logged in 127.0.0.1
+[03-27 15:43:44]: [FINE] The user Tester has 3 accounts:
+[03-27 15:43:44]: [FINE] §7char, milk_frog, §aTester§7.
+[03-27 15:43:44]: [FINE] Tester logged in 127.0.0.1
+[03-27 15:44:13]: [FINE] The user Milk_Frog has 3 accounts:
+[03-27 15:44:13]: [FINE] §7char, §aMilk_Frog§7, §aTester§7.
+[03-27 15:44:13]: [FINE] Milk_Frog logged in 127.0.0.1
+[03-27 15:44:37]: [FINE] The user Char has 3 accounts:
+[03-27 15:44:37]: [FINE] §7§aChar§7, §aMilk_Frog§7, §aTester§7.
+[03-27 15:44:37]: [FINE] Char logged in 127.0.0.1
+[03-27 15:55:32]: [FINE] The user Milk_Frog has 3 accounts:
+[03-27 15:55:32]: [FINE] §7char, §aMilk_Frog§7, §aTester§7.
+[03-27 15:55:32]: [FINE] Milk_Frog logged in 127.0.0.1
+[03-27 16:02:32]: [FINE] The user Milk_Frog has 3 accounts:
+[03-27 16:02:32]: [FINE] §7char, §aMilk_Frog§7, §aTester§7.
+[03-27 16:02:32]: [FINE] Milk_Frog logged in 127.0.0.1
+[03-27 16:03:44]: [FINE] The user Milk_Frog has 3 accounts:
+[03-27 16:03:44]: [FINE] §7char, §aMilk_Frog§7, tester.
+[03-27 16:03:44]: [FINE] Milk_Frog logged in 127.0.0.1
+[03-27 16:10:01]: [INFO] AuthMe 5.6.0-beta2-b2453 disabled!
+[03-27 16:10:01]: [INFO] SQLite Setup finished
+[03-27 16:10:01]: [INFO] No supported permissions system found! Permissions are disabled!
+[03-27 16:10:01]: [WARN] WARNING! The protectInventory feature requires ProtocolLib! Disabling it...
+[03-27 16:10:01]: [INFO] AuthMe 5.6.0-beta2 build n.2453 successfully enabled!
+[03-27 16:10:02]: [INFO] Downloading GEO IP database, because the old database is older than 30 days or doesn't exist
+[03-27 16:10:02]: [WARN] No MaxMind credentials found in the configuration file! GeoIp protections will be disabled.
+[03-27 16:10:02]: [INFO] There is no newer GEO IP database uploaded to MaxMind. Using the old one for now.
+[03-27 16:10:02]: [WARN] Could not download GeoLiteAPI database [FileNotFoundException]: plugins/AuthMe/GeoLite2-Country.mmdb (No such file or directory)
+[03-27 16:10:02]: java.io.FileNotFoundException: plugins/AuthMe/GeoLite2-Country.mmdb (No such file or directory)
+	at java.io.RandomAccessFile.open0(Native Method)
+	at java.io.RandomAccessFile.open(RandomAccessFile.java:316)
+	at java.io.RandomAccessFile.<init>(RandomAccessFile.java:243)
+	at fr.xephi.authme.libs.com.maxmind.db.BufferHolder.<init>(BufferHolder.java:20)
+	at fr.xephi.authme.libs.com.maxmind.db.Reader.<init>(Reader.java:121)
+	at fr.xephi.authme.service.GeoIpService.startReading(GeoIpService.java:173)
+	at fr.xephi.authme.service.GeoIpService.updateDatabase(GeoIpService.java:144)
+	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftTask.run(CraftTask.java:59)
+	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:53)
+	at org.github.paperspigot.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:23)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+
+[03-27 16:11:03]: [FINE] The user Char has 3 accounts:
+[03-27 16:11:03]: [FINE] §7§aChar§7, milk_frog, tester.
+[03-27 16:11:03]: [FINE] Char logged in 127.0.0.1
+[03-27 16:12:46]: [INFO] AuthMe 5.6.0-beta2-b2453 disabled!
+[03-27 16:12:46]: [INFO] SQLite Setup finished
+[03-27 16:12:46]: [INFO] No supported permissions system found! Permissions are disabled!
+[03-27 16:12:46]: [WARN] WARNING! The protectInventory feature requires ProtocolLib! Disabling it...
+[03-27 16:12:46]: [INFO] AuthMe 5.6.0-beta2 build n.2453 successfully enabled!
+[03-27 16:12:47]: [INFO] Downloading GEO IP database, because the old database is older than 30 days or doesn't exist
+[03-27 16:12:47]: [WARN] No MaxMind credentials found in the configuration file! GeoIp protections will be disabled.
+[03-27 16:12:47]: [INFO] There is no newer GEO IP database uploaded to MaxMind. Using the old one for now.
+[03-27 16:12:47]: [WARN] Could not download GeoLiteAPI database [FileNotFoundException]: plugins/AuthMe/GeoLite2-Country.mmdb (No such file or directory)
+[03-27 16:12:47]: java.io.FileNotFoundException: plugins/AuthMe/GeoLite2-Country.mmdb (No such file or directory)
+	at java.io.RandomAccessFile.open0(Native Method)
+	at java.io.RandomAccessFile.open(RandomAccessFile.java:316)
+	at java.io.RandomAccessFile.<init>(RandomAccessFile.java:243)
+	at fr.xephi.authme.libs.com.maxmind.db.BufferHolder.<init>(BufferHolder.java:20)
+	at fr.xephi.authme.libs.com.maxmind.db.Reader.<init>(Reader.java:121)
+	at fr.xephi.authme.service.GeoIpService.startReading(GeoIpService.java:173)
+	at fr.xephi.authme.service.GeoIpService.updateDatabase(GeoIpService.java:144)
+	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftTask.run(CraftTask.java:59)
+	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:53)
+	at org.github.paperspigot.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:23)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+
+[03-27 16:13:22]: [FINE] The user Char has 3 accounts:
+[03-27 16:13:22]: [FINE] §7§aChar§7, milk_frog, tester.
+[03-27 16:13:22]: [FINE] Char logged in 127.0.0.1
+[03-27 16:17:17]: [FINE] The user Milk_Frog has 3 accounts:
+[03-27 16:17:17]: [FINE] §7§aChar§7, §aMilk_Frog§7, tester.
+[03-27 16:17:17]: [FINE] Milk_Frog logged in 127.0.0.1
+[03-27 16:17:43]: [INFO] AuthMe 5.6.0-beta2-b2453 disabled!
+[03-27 16:17:43]: [INFO] SQLite Setup finished
+[03-27 16:17:43]: [INFO] No supported permissions system found! Permissions are disabled!
+[03-27 16:17:43]: [WARN] WARNING! The protectInventory feature requires ProtocolLib! Disabling it...
+[03-27 16:17:44]: [INFO] AuthMe 5.6.0-beta2 build n.2453 successfully enabled!
+[03-27 16:17:44]: [INFO] Downloading GEO IP database, because the old database is older than 30 days or doesn't exist
+[03-27 16:17:44]: [WARN] No MaxMind credentials found in the configuration file! GeoIp protections will be disabled.
+[03-27 16:17:44]: [INFO] There is no newer GEO IP database uploaded to MaxMind. Using the old one for now.
+[03-27 16:17:44]: [WARN] Could not download GeoLiteAPI database [FileNotFoundException]: plugins/AuthMe/GeoLite2-Country.mmdb (No such file or directory)
+[03-27 16:17:44]: java.io.FileNotFoundException: plugins/AuthMe/GeoLite2-Country.mmdb (No such file or directory)
+	at java.io.RandomAccessFile.open0(Native Method)
+	at java.io.RandomAccessFile.open(RandomAccessFile.java:316)
+	at java.io.RandomAccessFile.<init>(RandomAccessFile.java:243)
+	at fr.xephi.authme.libs.com.maxmind.db.BufferHolder.<init>(BufferHolder.java:20)
+	at fr.xephi.authme.libs.com.maxmind.db.Reader.<init>(Reader.java:121)
+	at fr.xephi.authme.service.GeoIpService.startReading(GeoIpService.java:173)
+	at fr.xephi.authme.service.GeoIpService.updateDatabase(GeoIpService.java:144)
+	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftTask.run(CraftTask.java:59)
+	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:53)
+	at org.github.paperspigot.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:23)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+
+[03-27 16:17:48]: [FINE] The user Char has 3 accounts:
+[03-27 16:17:48]: [FINE] §7§aChar§7, §aMilk_Frog§7, tester.
+[03-27 16:17:48]: [FINE] Char logged in 127.0.0.1
+[03-27 16:17:51]: [FINE] The user Milk_Frog has 3 accounts:
+[03-27 16:17:51]: [FINE] §7§aChar§7, §aMilk_Frog§7, tester.
+[03-27 16:17:51]: [FINE] Milk_Frog logged in 127.0.0.1
+[03-27 16:18:43]: [INFO] AuthMe 5.6.0-beta2-b2453 disabled!
+[03-27 16:18:43]: [INFO] SQLite Setup finished
+[03-27 16:18:43]: [INFO] No supported permissions system found! Permissions are disabled!
+[03-27 16:18:43]: [WARN] WARNING! The protectInventory feature requires ProtocolLib! Disabling it...
+[03-27 16:18:43]: [INFO] AuthMe 5.6.0-beta2 build n.2453 successfully enabled!
+[03-27 16:18:43]: [INFO] Downloading GEO IP database, because the old database is older than 30 days or doesn't exist
+[03-27 16:18:43]: [WARN] No MaxMind credentials found in the configuration file! GeoIp protections will be disabled.
+[03-27 16:18:43]: [INFO] There is no newer GEO IP database uploaded to MaxMind. Using the old one for now.
+[03-27 16:18:43]: [WARN] Could not download GeoLiteAPI database [FileNotFoundException]: plugins/AuthMe/GeoLite2-Country.mmdb (No such file or directory)
+[03-27 16:18:43]: java.io.FileNotFoundException: plugins/AuthMe/GeoLite2-Country.mmdb (No such file or directory)
+	at java.io.RandomAccessFile.open0(Native Method)
+	at java.io.RandomAccessFile.open(RandomAccessFile.java:316)
+	at java.io.RandomAccessFile.<init>(RandomAccessFile.java:243)
+	at fr.xephi.authme.libs.com.maxmind.db.BufferHolder.<init>(BufferHolder.java:20)
+	at fr.xephi.authme.libs.com.maxmind.db.Reader.<init>(Reader.java:121)
+	at fr.xephi.authme.service.GeoIpService.startReading(GeoIpService.java:173)
+	at fr.xephi.authme.service.GeoIpService.updateDatabase(GeoIpService.java:144)
+	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftTask.run(CraftTask.java:59)
+	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:53)
+	at org.github.paperspigot.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:23)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+
+[03-27 16:18:47]: [FINE] The user Char has 3 accounts:
+[03-27 16:18:47]: [FINE] §7§aChar§7, §aMilk_Frog§7, tester.
+[03-27 16:18:47]: [FINE] Char logged in 127.0.0.1
+[03-27 16:18:50]: [FINE] The user Milk_Frog has 3 accounts:
+[03-27 16:18:50]: [FINE] §7§aChar§7, §aMilk_Frog§7, tester.
+[03-27 16:18:50]: [FINE] Milk_Frog logged in 127.0.0.1
+[03-27 16:23:26]: [INFO] AuthMe 5.6.0-beta2-b2453 disabled!
+[03-27 16:23:26]: [INFO] SQLite Setup finished
+[03-27 16:23:26]: [INFO] No supported permissions system found! Permissions are disabled!
+[03-27 16:23:26]: [WARN] WARNING! The protectInventory feature requires ProtocolLib! Disabling it...
+[03-27 16:23:26]: [INFO] AuthMe 5.6.0-beta2 build n.2453 successfully enabled!
+[03-27 16:23:27]: [INFO] Downloading GEO IP database, because the old database is older than 30 days or doesn't exist
+[03-27 16:23:27]: [WARN] No MaxMind credentials found in the configuration file! GeoIp protections will be disabled.
+[03-27 16:23:27]: [INFO] There is no newer GEO IP database uploaded to MaxMind. Using the old one for now.
+[03-27 16:23:27]: [WARN] Could not download GeoLiteAPI database [FileNotFoundException]: plugins/AuthMe/GeoLite2-Country.mmdb (No such file or directory)
+[03-27 16:23:27]: java.io.FileNotFoundException: plugins/AuthMe/GeoLite2-Country.mmdb (No such file or directory)
+	at java.io.RandomAccessFile.open0(Native Method)
+	at java.io.RandomAccessFile.open(RandomAccessFile.java:316)
+	at java.io.RandomAccessFile.<init>(RandomAccessFile.java:243)
+	at fr.xephi.authme.libs.com.maxmind.db.BufferHolder.<init>(BufferHolder.java:20)
+	at fr.xephi.authme.libs.com.maxmind.db.Reader.<init>(Reader.java:121)
+	at fr.xephi.authme.service.GeoIpService.startReading(GeoIpService.java:173)
+	at fr.xephi.authme.service.GeoIpService.updateDatabase(GeoIpService.java:144)
+	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftTask.run(CraftTask.java:59)
+	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:53)
+	at org.github.paperspigot.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:23)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+
+[03-27 16:23:33]: [FINE] The user Milk_Frog has 3 accounts:
+[03-27 16:23:33]: [FINE] §7§aChar§7, §aMilk_Frog§7, tester.
+[03-27 16:23:33]: [FINE] Milk_Frog logged in 127.0.0.1
+[03-27 16:23:35]: [FINE] The user Char has 3 accounts:
+[03-27 16:23:35]: [FINE] §7§aChar§7, §aMilk_Frog§7, tester.
+[03-27 16:23:35]: [FINE] Char logged in 127.0.0.1
+[03-27 16:34:51]: [FINE] The user Tester has 3 accounts:
+[03-27 16:34:51]: [FINE] §7char, milk_frog, §aTester§7.
+[03-27 16:34:51]: [FINE] Tester logged in 127.0.0.1
+[03-27 17:00:48]: [FINE] The user Tester has 3 accounts:
+[03-27 17:00:48]: [FINE] §7char, milk_frog, §aTester§7.
+[03-27 17:00:48]: [FINE] Tester logged in 127.0.0.1
+[03-27 17:44:46]: [FINE] The user Char has 3 accounts:
+[03-27 17:44:46]: [FINE] §7§aChar§7, milk_frog, tester.
+[03-27 17:44:46]: [FINE] Char logged in 127.0.0.1
+[03-27 17:44:59]: [FINE] The user Milk_Frog has 3 accounts:
+[03-27 17:44:59]: [FINE] §7§aChar§7, §aMilk_Frog§7, tester.
+[03-27 17:44:59]: [FINE] Milk_Frog logged in 127.0.0.1
+[03-27 17:51:52]: [FINE] The user Char has 3 accounts:
+[03-27 17:51:52]: [FINE] §7§aChar§7, §aMilk_Frog§7, tester.
+[03-27 17:51:52]: [FINE] Char logged in 127.0.0.1
+[03-27 18:01:48]: [FINE] The user Tester has 3 accounts:
+[03-27 18:01:48]: [FINE] §7§aChar§7, §aMilk_Frog§7, §aTester§7.
+[03-27 18:01:48]: [FINE] Tester logged in 127.0.0.1
+[03-27 18:05:53]: [INFO] AuthMe 5.6.0-beta2-b2453 disabled!
+[03-27 18:05:53]: [INFO] SQLite Setup finished
+[03-27 18:05:53]: [INFO] No supported permissions system found! Permissions are disabled!
+[03-27 18:05:53]: [WARN] WARNING! The protectInventory feature requires ProtocolLib! Disabling it...
+[03-27 18:05:53]: [INFO] AuthMe 5.6.0-beta2 build n.2453 successfully enabled!
+[03-27 18:05:54]: [INFO] Downloading GEO IP database, because the old database is older than 30 days or doesn't exist
+[03-27 18:05:54]: [WARN] No MaxMind credentials found in the configuration file! GeoIp protections will be disabled.
+[03-27 18:05:54]: [INFO] There is no newer GEO IP database uploaded to MaxMind. Using the old one for now.
+[03-27 18:05:54]: [WARN] Could not download GeoLiteAPI database [FileNotFoundException]: plugins/AuthMe/GeoLite2-Country.mmdb (No such file or directory)
+[03-27 18:05:54]: java.io.FileNotFoundException: plugins/AuthMe/GeoLite2-Country.mmdb (No such file or directory)
+	at java.io.RandomAccessFile.open0(Native Method)
+	at java.io.RandomAccessFile.open(RandomAccessFile.java:316)
+	at java.io.RandomAccessFile.<init>(RandomAccessFile.java:243)
+	at fr.xephi.authme.libs.com.maxmind.db.BufferHolder.<init>(BufferHolder.java:20)
+	at fr.xephi.authme.libs.com.maxmind.db.Reader.<init>(Reader.java:121)
+	at fr.xephi.authme.service.GeoIpService.startReading(GeoIpService.java:173)
+	at fr.xephi.authme.service.GeoIpService.updateDatabase(GeoIpService.java:144)
+	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftTask.run(CraftTask.java:59)
+	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:53)
+	at org.github.paperspigot.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:23)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+
+[03-27 18:05:58]: [FINE] The user Char has 3 accounts:
+[03-27 18:05:58]: [FINE] §7§aChar§7, §aMilk_Frog§7, §aTester§7.
+[03-27 18:05:58]: [FINE] Char logged in 127.0.0.1
+[03-27 18:06:01]: [FINE] The user Milk_Frog has 3 accounts:
+[03-27 18:06:01]: [FINE] §7§aChar§7, §aMilk_Frog§7, §aTester§7.
+[03-27 18:06:01]: [FINE] Milk_Frog logged in 127.0.0.1
+[03-27 18:06:07]: [FINE] The user Tester has 3 accounts:
+[03-27 18:06:07]: [FINE] §7§aChar§7, §aMilk_Frog§7, §aTester§7.
+[03-27 18:06:07]: [FINE] Tester logged in 127.0.0.1
+[03-27 18:10:07]: [INFO] AuthMe 5.6.0-beta2-b2453 disabled!
+[03-27 18:10:07]: [INFO] SQLite Setup finished
+[03-27 18:10:07]: [INFO] No supported permissions system found! Permissions are disabled!
+[03-27 18:10:08]: [WARN] WARNING! The protectInventory feature requires ProtocolLib! Disabling it...
+[03-27 18:10:08]: [INFO] AuthMe 5.6.0-beta2 build n.2453 successfully enabled!
+[03-27 18:10:08]: [INFO] Downloading GEO IP database, because the old database is older than 30 days or doesn't exist
+[03-27 18:10:08]: [WARN] No MaxMind credentials found in the configuration file! GeoIp protections will be disabled.
+[03-27 18:10:08]: [INFO] There is no newer GEO IP database uploaded to MaxMind. Using the old one for now.
+[03-27 18:10:08]: [WARN] Could not download GeoLiteAPI database [FileNotFoundException]: plugins/AuthMe/GeoLite2-Country.mmdb (No such file or directory)
+[03-27 18:10:08]: java.io.FileNotFoundException: plugins/AuthMe/GeoLite2-Country.mmdb (No such file or directory)
+	at java.io.RandomAccessFile.open0(Native Method)
+	at java.io.RandomAccessFile.open(RandomAccessFile.java:316)
+	at java.io.RandomAccessFile.<init>(RandomAccessFile.java:243)
+	at fr.xephi.authme.libs.com.maxmind.db.BufferHolder.<init>(BufferHolder.java:20)
+	at fr.xephi.authme.libs.com.maxmind.db.Reader.<init>(Reader.java:121)
+	at fr.xephi.authme.service.GeoIpService.startReading(GeoIpService.java:173)
+	at fr.xephi.authme.service.GeoIpService.updateDatabase(GeoIpService.java:144)
+	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftTask.run(CraftTask.java:59)
+	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:53)
+	at org.github.paperspigot.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:23)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+
+[03-27 18:10:13]: [FINE] The user Tester has 3 accounts:
+[03-27 18:10:13]: [FINE] §7§aChar§7, §aMilk_Frog§7, §aTester§7.
+[03-27 18:10:13]: [FINE] Tester logged in 127.0.0.1
+[03-27 18:10:13]: [FINE] The user Char has 3 accounts:
+[03-27 18:10:13]: [FINE] §7§aChar§7, §aMilk_Frog§7, §aTester§7.
+[03-27 18:10:13]: [FINE] Char logged in 127.0.0.1
+[03-27 18:10:14]: [FINE] The user Milk_Frog has 3 accounts:
+[03-27 18:10:14]: [FINE] §7§aChar§7, §aMilk_Frog§7, §aTester§7.
+[03-27 18:10:14]: [FINE] Milk_Frog logged in 127.0.0.1
+[03-27 18:18:20]: [FINE] The user Tester has 3 accounts:
+[03-27 18:18:20]: [FINE] §7§aChar§7, §aMilk_Frog§7, §aTester§7.
+[03-27 18:18:20]: [FINE] Tester logged in 127.0.0.1
+[03-27 18:20:19]: [FINE] The user Tester has 3 accounts:
+[03-27 18:20:19]: [FINE] §7§aChar§7, §aMilk_Frog§7, §aTester§7.
+[03-27 18:20:19]: [FINE] Tester logged in 127.0.0.1
+[03-27 18:20:38]: [FINE] The user Char has 3 accounts:
+[03-27 18:20:38]: [FINE] §7§aChar§7, §aMilk_Frog§7, tester.
+[03-27 18:20:38]: [FINE] Char logged in 127.0.0.1
+[03-27 18:20:48]: [FINE] The user Tester has 3 accounts:
+[03-27 18:20:48]: [FINE] §7§aChar§7, §aMilk_Frog§7, §aTester§7.
+[03-27 18:20:48]: [FINE] Tester logged in 127.0.0.1
+[03-27 18:26:58]: [FINE] The user Char has 3 accounts:
+[03-27 18:26:58]: [FINE] §7§aChar§7, §aMilk_Frog§7, §aTester§7.
+[03-27 18:26:58]: [FINE] Char logged in 127.0.0.1
+[03-27 18:57:28]: [FINE] The user Tester has 3 accounts:
+[03-27 18:57:28]: [FINE] §7char, §aMilk_Frog§7, §aTester§7.
+[03-27 18:57:28]: [FINE] Tester logged in 127.0.0.1
+[03-27 19:03:04]: [FINE] The user Tester has 3 accounts:
+[03-27 19:03:04]: [FINE] §7char, §aMilk_Frog§7, §aTester§7.
+[03-27 19:03:04]: [FINE] Tester logged in 127.0.0.1
+[03-27 19:03:44]: [FINE] The user Tester has 3 accounts:
+[03-27 19:03:44]: [FINE] §7char, §aMilk_Frog§7, §aTester§7.
+[03-27 19:03:44]: [FINE] Tester logged in 127.0.0.1
+[03-27 19:36:41]: [FINE] Feathery registered 127.0.0.1
+[03-27 19:36:41]: [FINE] The user Feathery has 4 accounts:
+[03-27 19:36:41]: [FINE] §7char, milk_frog, tester, §aFeathery§7.
+[03-27 19:36:41]: [FINE] Feathery logged in 127.0.0.1
+[03-27 19:50:09]: [FINE] The user Milk_Frog has 4 accounts:
+[03-27 19:50:09]: [FINE] §7char, §aMilk_Frog§7, tester, feathery.
+[03-27 19:50:09]: [FINE] Milk_Frog logged in 127.0.0.1
+[03-27 20:19:19]: [FINE] The user Char has 4 accounts:
+[03-27 20:19:19]: [FINE] §7§aChar§7, milk_frog, §aTester§7, feathery.
+[03-27 20:19:19]: [FINE] Char logged in 127.0.0.1
+[03-27 20:19:20]: [FINE] The user Tester has 4 accounts:
+[03-27 20:19:20]: [FINE] §7§aChar§7, milk_frog, §aTester§7, feathery.
+[03-27 20:19:20]: [FINE] Tester logged in 127.0.0.1
+[03-27 20:41:08]: [FINE] NezukoChan registered 127.0.0.1
+[03-27 20:41:08]: [FINE] The user NezukoChan has 5 accounts:
+[03-27 20:41:08]: [FINE] §7char, milk_frog, §aTester§7, feathery, §aNezukoChan§7.
+[03-27 20:41:08]: [FINE] NezukoChan logged in 127.0.0.1
+[03-27 20:41:12]: [FINE] The user Tester has 5 accounts:
+[03-27 20:41:12]: [FINE] §7char, milk_frog, §aTester§7, feathery, §aNezukoChan§7.
+[03-27 20:41:12]: [FINE] Tester logged in 127.0.0.1
+[03-27 21:35:23]: [FINE] The user Char has 5 accounts:
+[03-27 21:35:23]: [FINE] §7§aChar§7, milk_frog, tester, feathery, nezukochan.
+[03-27 21:35:23]: [FINE] Char logged in 127.0.0.1
+[03-28 00:50:59]: [FINE] The user Milk_Frog has 5 accounts:
+[03-28 00:50:59]: [FINE] §7char, §aMilk_Frog§7, tester, feathery, nezukochan.
+[03-28 00:50:59]: [FINE] Milk_Frog logged in 127.0.0.1
+[03-28 00:51:20]: [FINE] The user Tester has 5 accounts:
+[03-28 00:51:20]: [FINE] §7char, §aMilk_Frog§7, §aTester§7, §aFeathery§7, nezukochan.
+[03-28 00:51:20]: [FINE] Tester logged in 127.0.0.1
+[03-28 00:51:20]: [FINE] The user Feathery has 5 accounts:
+[03-28 00:51:20]: [FINE] §7char, §aMilk_Frog§7, §aTester§7, §aFeathery§7, nezukochan.
+[03-28 00:51:20]: [FINE] Feathery logged in 127.0.0.1
+[03-28 01:35:00]: [FINE] The user Tester has 5 accounts:
+[03-28 01:35:00]: [FINE] §7char, milk_frog, §aTester§7, feathery, nezukochan.
+[03-28 01:35:00]: [FINE] Tester logged in 127.0.0.1
+[03-28 01:38:30]: [FINE] The user Tester has 5 accounts:
+[03-28 01:38:30]: [FINE] §7char, milk_frog, §aTester§7, feathery, nezukochan.
+[03-28 01:38:30]: [FINE] Tester logged in 127.0.0.1
+[03-28 01:45:30]: [FINE] The user Feathery has 5 accounts:
+[03-28 01:45:30]: [FINE] §7char, milk_frog, §aTester§7, §aFeathery§7, nezukochan.
+[03-28 01:45:30]: [FINE] Feathery logged in 127.0.0.1
+[03-28 17:07:11]: [FINE] The user Tester has 5 accounts:
+[03-28 17:07:11]: [FINE] §7char, milk_frog, §aTester§7, feathery, nezukochan.
+[03-28 17:07:11]: [FINE] Tester logged in 127.0.0.1
+[04-01 14:52:22]: [FINE] The user Tester has 5 accounts:
+[04-01 14:52:22]: [FINE] §7char, milk_frog, §aTester§7, feathery, nezukochan.
+[04-01 14:52:22]: [FINE] Tester logged in 127.0.0.1
+[04-01 14:56:26]: [INFO] SQLite Setup finished
+[04-01 14:56:26]: [INFO] No supported permissions system found! Permissions are disabled!
+[04-01 14:56:26]: [WARN] WARNING! The protectInventory feature requires ProtocolLib! Disabling it...
+[04-01 14:56:26]: [INFO] AuthMe 5.6.0-beta2 build n.2453 successfully enabled!
+[04-01 14:56:27]: [INFO] Downloading GEO IP database, because the old database is older than 30 days or doesn't exist
+[04-01 14:56:27]: [WARN] No MaxMind credentials found in the configuration file! GeoIp protections will be disabled.
+[04-01 14:56:27]: [INFO] There is no newer GEO IP database uploaded to MaxMind. Using the old one for now.
+[04-01 14:56:27]: [WARN] Could not download GeoLiteAPI database [FileNotFoundException]: plugins/AuthMe/GeoLite2-Country.mmdb (No such file or directory)
+[04-01 14:56:27]: java.io.FileNotFoundException: plugins/AuthMe/GeoLite2-Country.mmdb (No such file or directory)
+	at java.io.RandomAccessFile.open0(Native Method)
+	at java.io.RandomAccessFile.open(RandomAccessFile.java:316)
+	at java.io.RandomAccessFile.<init>(RandomAccessFile.java:243)
+	at fr.xephi.authme.libs.com.maxmind.db.BufferHolder.<init>(BufferHolder.java:20)
+	at fr.xephi.authme.libs.com.maxmind.db.Reader.<init>(Reader.java:121)
+	at fr.xephi.authme.service.GeoIpService.startReading(GeoIpService.java:173)
+	at fr.xephi.authme.service.GeoIpService.updateDatabase(GeoIpService.java:144)
+	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftTask.run(CraftTask.java:59)
+	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:53)
+	at org.github.paperspigot.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:23)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+
+[04-01 14:58:35]: [FINE] The user Char has 5 accounts:
+[04-01 14:58:35]: [FINE] §7§aChar§7, milk_frog, tester, feathery, nezukochan.
+[04-01 14:58:35]: [FINE] Char logged in 127.0.0.1
+[04-01 14:58:51]: [FINE] The user Tester has 5 accounts:
+[04-01 14:58:51]: [FINE] §7§aChar§7, milk_frog, §aTester§7, feathery, nezukochan.
+[04-01 14:58:51]: [FINE] Tester logged in 127.0.0.1
+[04-01 15:02:14]: [FINE] GolemDaWanderer registered 127.0.0.1
+[04-01 15:02:14]: [FINE] The user GolemDaWanderer has 6 accounts:
+[04-01 15:02:14]: [FINE] §7§aChar§7, milk_frog, §aTester§7, feathery, nezukochan, §aGolemDaWanderer§7.
+[04-01 15:02:14]: [FINE] GolemDaWanderer logged in 127.0.0.1
+[04-01 16:14:47]: [FINE] The user GolemDaWanderer has 6 accounts:
+[04-01 16:14:47]: [FINE] §7char, milk_frog, tester, feathery, nezukochan, §aGolemDaWanderer§7.
+[04-01 16:14:47]: [FINE] GolemDaWanderer logged in 127.0.0.1
+[04-01 16:17:26]: [FINE] Error registered 127.0.0.1
+[04-01 16:17:26]: [FINE] The user Error has 7 accounts:
+[04-01 16:17:26]: [FINE] §7char, milk_frog, tester, feathery, nezukochan, §aGolemDaWanderer§7, §aError§7.
+[04-01 16:17:26]: [FINE] Error logged in 127.0.0.1
+[04-01 16:21:07]: [FINE] The user Tester has 7 accounts:
+[04-01 16:21:07]: [FINE] §7char, milk_frog, §aTester§7, feathery, nezukochan, §aGolemDaWanderer§7, error.
+[04-01 16:21:07]: [FINE] Tester logged in 127.0.0.1
+[04-01 16:22:12]: [FINE] The user Tester has 7 accounts:
+[04-01 16:22:12]: [FINE] §7char, milk_frog, §aTester§7, feathery, nezukochan, §aGolemDaWanderer§7, error.
+[04-01 16:22:12]: [FINE] Tester logged in 127.0.0.1
+[04-01 17:00:29]: [FINE] The user Tester has 7 accounts:
+[04-01 17:00:29]: [FINE] §7char, milk_frog, §aTester§7, feathery, nezukochan, §aGolemDaWanderer§7, error.
+[04-01 17:00:29]: [FINE] Tester logged in 127.0.0.1
+[04-01 17:01:31]: [FINE] The user Char has 7 accounts:
+[04-01 17:01:31]: [FINE] §7§aChar§7, milk_frog, §aTester§7, feathery, nezukochan, §aGolemDaWanderer§7, error.
+[04-01 17:01:31]: [FINE] Char logged in 127.0.0.1
+[04-01 17:47:25]: [FINE] The user Char has 7 accounts:
+[04-01 17:47:25]: [FINE] §7§aChar§7, milk_frog, tester, feathery, nezukochan, golemdawanderer, error.
+[04-01 17:47:25]: [FINE] Char logged in 127.0.0.1
+[04-01 19:59:34]: [FINE] The user GolemDaWanderer has 7 accounts:
+[04-01 19:59:34]: [FINE] §7char, milk_frog, tester, feathery, nezukochan, §aGolemDaWanderer§7, error.
+[04-01 19:59:34]: [FINE] GolemDaWanderer logged in 127.0.0.1
+[04-01 23:11:32]: [FINE] xcpc registered 127.0.0.1
+[04-01 23:11:32]: [FINE] The user xcpc has 8 accounts:
+[04-01 23:11:32]: [FINE] §7char, milk_frog, tester, feathery, nezukochan, golemdawanderer, error, §axcpc§7.
+[04-01 23:11:32]: [FINE] xcpc logged in 127.0.0.1
+[04-02 01:52:03]: [FINE] The user GolemDaWanderer has 8 accounts:
+[04-02 01:52:03]: [FINE] §7char, milk_frog, tester, feathery, nezukochan, §aGolemDaWanderer§7, error, xcpc.
+[04-02 01:52:03]: [FINE] GolemDaWanderer logged in 127.0.0.1
+[04-02 12:19:23]: [INFO] AuthMe 5.6.0-beta2-b2453 disabled!

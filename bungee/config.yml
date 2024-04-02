@@ -44,7 +44,7 @@ forge_support: true
 disabled_commands:
 - disabledcommandhere
 servers:
-  lobby:
+  Guns:
     motd: '&1Just another Waterfall - Forced Host'
-    address: localhost:25565
+    address: localhost:99
     restricted: false
